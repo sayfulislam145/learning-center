@@ -1,9 +1,3 @@
-.slider-part {
-    height: 32rem;
-    background-size: cover;
-
-}
-
 .slider-part::before {
     content: "";
     display: block;
@@ -16,8 +10,24 @@
     opacity: 0.5;
 }
 
-.slider-text {
 
-    bottom: 180px;
 
-}
+/* @media only screen and (max-width: 576px) {
+    .learning-slider {}
+
+    .learning-slider h1 {
+        font-size: 20px;
+        line-height: 15px;
+
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+} */
